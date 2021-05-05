@@ -4,7 +4,7 @@ public class IoT {
 	
 	private Analytics_Engine Analytics;
 	protected long session_id;
-	private static double MAX_SPEED;
+	private final static double MAX_SPEED = 60 ;
 	private static double CURR_SPEED;
 	private Boolean is_hazard_rain, is_hazard_rpm, is_hazard_camera;
 	private String alert;
